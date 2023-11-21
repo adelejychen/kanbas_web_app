@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/KanbasNavigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/CourseNavigation/index.css" />
+    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module">
+      import Home from "./Home.js";
+      const html = Home();
+      const root = document.getElementById("root");
+      root.innerHTML = html;
+    </script>
+  </body>
+</html>
